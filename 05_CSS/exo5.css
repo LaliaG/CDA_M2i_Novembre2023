@@ -1,0 +1,10 @@
+.contain {
+    display: grid;
+
+    * {
+        color: #6c727f;
+        background-color: #fafaf9;
+        color: #883ae1;
+        background-color: #e6d6fc;
+    }
+}

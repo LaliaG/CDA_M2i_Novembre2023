@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Antoine DIEUDONNE</h1>
+    <h2>Contact</h2>
+    <Nav class="menu">
+        
+            
+        <a href="#">Accueil</a>
+        <a href="#">Horaires</a>
+        <a href="#">Contact</a>
+      
+    
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Qui êtes vous ?</legend>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" placeholder="MARTIN" name="nom" required><br>
+
+        <label for="date">Date de naissance :</label>
+        <input type="text" id="date" name="date" required><br>
+      
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required><br>
+        <label>Sexe :</label>
+        <input type="radio" id="homme" name="genre" value="homme">
+        <label for="homme">Homme</label>
+        <input type="radio" id="femme" name="genre" value="femme">
+        <label for="femme">Femme</label>
+    </fieldset>
+         
+      <fieldset>  
+      <legend>Sujet de votre question</legend>
+        <label>Est-ce urgent ? :</label>
+        <input type="checkbox" id="" name="" value=""><br>
+        
+        <label for="">Type de problème :</label>
+        <select id="" name="">
+          <optgroup label="">
+            <option value="france">Je n'arrive pas à accéder à mon compte</option>
+          </optgroup>
+          
+        </select><br>
+    </fieldset>
+        
+    <fieldset>
+      <legend>Commentaires</legend>
+
+      
+      <label for="message">Notes:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+    </fieldset> 
+    </form>
+    <br>
+    <a href="./exo6/">
+        <button type="button">Envoyer une question</button>
+    </a>
+</body>
+</html>
